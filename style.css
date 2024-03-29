@@ -1,0 +1,87 @@
+/*
+Theme Name: Acronix
+Theme URI: 
+Author: Nayra Themes
+Author URI: https://www.nayrathemes.com/
+Description: A powerful next generation theme for upcoming generations and traditional UI that focuses on the color combinations of solid and gradient colors, along with cool animations and attractive features. It's perfect for any type of business.
+Template: accron
+Version: 1.0
+Tested up to: 6.4
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: acronix
+Slug: acronix
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, photography, portfolio, editor-style, grid-layout
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+/* header */
+body:not(.home) .header-two .header-widget .widget-contact .contact-info .text {
+    color: #ffffff;
+}
+
+body:not(.home) .header-two .header-widget .widget-contact .contact-info .text a {
+    color: #ffffff;
+}
+
+.topbar .navbar-brand img {
+	height: auto;
+}
+body:not(.home) .header-two .nav-area:not(.is-sticky-menu) .navbar-nav .nav-item .nav-link {
+	color: #ffffff;
+}
+body:not(.home) .header-two .nav-area:not(.is-sticky-menu) .menu-right ul> li> a { 
+     color: var(--white); 
+} 
+
+.menu-right>ul>li {
+    padding: 0px;
+}
+.header-two.transparent.is-sticky-menu .widget-contact .contact-info .text {
+    color: #ffffff;
+}
+
+.header-two.transparent.is-sticky-menu .widget-contact .contact-info .text a{
+    color: #ffffff;
+}
+.header-two.transparent.is-sticky-menu .navbar-nav .nav-item .nav-link {
+	color: #ffffff;
+}
+
+.header-two.transparent.is-sticky-menu .menu-right ul> li> a { 
+     color: var(--white); 
+} 
+
+img.custom-logo {
+    max-width: 120px;
+    height: auto;
+    padding: 5px;
+}
+ 
+.home.blog .header-two .nav-area:not(.is-sticky-menu) .navbar-nav .nav-item .nav-link{
+	color: #ffffff;
+}
+
+.home.blog .header-two .nav-area:not(.is-sticky-menu) .menu-right ul> li> a{
+	color: #ffffff;
+}
+
+a:has(.site-title) {
+    display: block;
+}
+
+.offcanvas-header .navbar-brand {
+	display: none;
+}
+
+/*Slider */
+
+@media(min-width: 992px){
+	.slider-two {
+		padding-top: 35px;
+	}
+}
